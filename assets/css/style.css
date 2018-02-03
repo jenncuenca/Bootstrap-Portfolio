@@ -16,6 +16,7 @@ body {
 
 
 /* navbar */
+
 .navbar-brand {
 
 }
@@ -25,7 +26,7 @@ body {
     padding-top: 10%;
     padding-bottom: 5%;
     padding-left: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
 }
 
 #profile {
@@ -37,7 +38,7 @@ body {
     padding-top: 10%;
     padding-bottom: 5%;
     padding-left: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
 }
 
 /*footer*/
