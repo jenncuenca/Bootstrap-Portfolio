@@ -2,81 +2,78 @@
 <!doctype html>
 <html lang="en-us">
 
-<head>
-  <meta charset="UTF-8">
-  <!-- VIEWPORT -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!---->
+  <head>
+    <meta charset="UTF-8">
+<!-- VIEWPORT -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Hello! I'm Jenn</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+<!-- BOOTSTRAP SS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  </head>
 
-  <title>Hello! I'm Jenn</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <!-- BOOTSTRAP CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <!---->
-
-</head>
-
-<body>
-  <!-- NAME + NAVIGATION -->
-  <header id="masthead">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="index.html">Jennifer Cuenca</a>
-        </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <body>
+<!-- NAME + NAVIGATION -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Jennifer Cuenca</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
           <a class="nav-item nav-link" href="index.html">About</a>
           <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
           <a class="nav-item nav-link" href="contact.html">Contact</a>
-        </div>
+        </div>      
       </nav>
+
+<!-- MAIN CONTAINER -->
+    <div class="container">
+      <div class="row">
+        <!-- CONTENT -->
+        <div id="main" class="col-md-8" style="background-color: #ccc;">
+            <img id="profile" class="img-responsive" src="assets/img/jenn.jpeg" alt="Jennifer Cuenca">
+
+            <h2>ABOUT JENN</h2>
+            <p> Facts about myself my skills that I am unsure of what, or how, to express. Making random connections. Love of learning. I am a Ravenclaw afterall. Impersonating Daria.</p>
+            <p> Background information. My education. Gator Nation. My hobbies. MTG. Harry Potter. Mauy Thai. Bodily Injuries. Fun stuff like that. For now, just a bunch of jibberish. Blah. Blah blah blah blah. Batman.</p>
+        </div>
+
+      <!-- DIVIDER -->
+      <div class="div col-md-1"></div>
+
+      <!-- SOCIAL MEDIA -->
+        <div id="social" class="col-md-3" style="background-color: #ccc;">
+         
+          <h4>Connect with Me</h4>
+          <p>
+            <a href="#"><img src="assets/img/social-media-icons/github.png" class="social" alt="GitHub"></a>
+            <a href="#"><img src="assets/img/social-media-icons/linkedin.png" class="social" alt="LinkedIn"></a>
+            <a href="#"><img src="assets/img/social-media-icons/overflow.png" class="social" alt="Stack Overflow"></a>
+          </p>
+
+        </div>
+      </div>
     </div>
-  </header>
 
-  <!-- MAIN CONTENT-->
-  <div id="main-container" class="container">
-    <section class="main-section col-md-8">
-      <h1>About Me</h1>
 
-      <img src="assets/img/jenn.jpeg" class="auth-image" alt="Your Name">
-
-      <p>Facts about myself my skills that I am unsure of what, or how, to express. Making random connections. Love of learning. I am a Ravenclaw afterall. Impersonating Daria.</p>
-
-      <p>Background information. My education. Gator Nation. My hobbies. MTG. Harry Potter. Mauy Thai. Bodily Injuries. Fun stuff like that. For now, just a bunch of jibberish. Blah. Blah blah blah blah. Batman.</p>
-
-    </section>
-
-    <section class="section col-md-1"></section>
-    
-    <!-- SOCIAL MEDIA CONNECTIONS -->
-    <section class="sidebar col-md-3">
-      <div id="connect">
-        <h2>Connect with Me</h2>
-
-        <a href="#"><img src="assets/img/social-media-icons/github.png" class="social" alt="GitHub" /></a>
-        <a href="#"><img src="assets/img/social-media-icons/linkedin.png" class="social" alt="LinkedIn" /></a>
-        <a href="#"><img src="assets/img/social-media-icons/overflow.png" class="social" alt="Stack Overflow" /></a>
-      </div>
-    </section>
-  </div>
-
-  <!-- FOOTER -->
-
-  <footer class="footer">
+    <footer class="footer">
       <div class="container">
-        <span> Copyright &copy; 2018 | Jennifer Cuenca </span>
+        <div class="row">
+          Copyright &copy; 2018 | Jennifer Cuenca
+        </div>
       </div>
-  </footer>
+    </footer>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+
+  </body>
 
 </html>
