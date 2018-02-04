@@ -10,8 +10,7 @@
     <title>Hello! I'm Jenn</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 <!-- BOOTSTRAP SS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">  
 <!-- CUSTOM SS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -19,59 +18,66 @@
 
   <body>
 <!-- NAME + NAVIGATION -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Jennifer Cuenca</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <!-- "LOGO" and Collapse icon --> 
+     <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <a class="nav-item nav-link" href="index.html">About</a>
-          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-          <a class="nav-item nav-link" href="contact.html">Contact</a>
-        </div>      
-      </nav>
-
-<!-- MAIN CONTAINER -->
-    <div class="container">
-      <div class="row">
-        <!-- CONTENT -->
-        <div id="main" class="col-md-8 col-md-offset-1" style="background-color:#b2d8d8;">
-            <img id="profile" class="img-responsive" src="assets/img/jenn.jpeg" alt="Jennifer Cuenca">
-
-            <h2>ABOUT JENN</h2>
-            <p> Facts about myself my skills that I am unsure of what, or how, to express. Making random connections. Love of learning. I am a Ravenclaw afterall. Impersonating Daria.</p>
-            <p> Background information. My education. Gator Nation. My hobbies. MTG. Harry Potter. Mauy Thai. Bodily Injuries. Fun stuff like that. For now, just a bunch of jibberish. Blah. Blah blah blah blah. Batman.</p>
-        </div>
-
-      <!-- SOCIAL MEDIA -->
-        <div id="social" class="col-md-3" style="background-color: #b2d8d8;">
-         
-          <h4>Connect with Me</h4>
-          <p>
-            <a href="#"><img src="assets/img/social-media-icons/github.png" class="social" alt="GitHub"></a>
-            <a href="#"><img src="assets/img/social-media-icons/linkedin.png" class="social" alt="LinkedIn"></a>
-            <a href="#"><img src="assets/img/social-media-icons/overflow.png" class="social" alt="Stack Overflow"></a>
-          </p>
-
-        </div>
+        <a class="navbar-brand" href="#">Jennifer Cuenca</a>
       </div>
-    </div>
-
-
-    <footer class="footer text-center">
-      <div class="container">
-        <div class="row ">
-          Copyright &copy; 2018 | Jennifer Cuenca
-        </div>
+    <!-- LINKS -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio/html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+       </div>
       </div>
-    </footer>
+   </nav>
+  </div>
+
+
+
+<!--CONTENT -->
+<div class="container">
+
+  <div class ="row">
+    <!-- main content -->
+    <div class="col-md-8"></div>
+
+    <!-- social media sidebar -->
+    <div class="col-md-4"></div>
+
+  </div>
+
+<!-- FOOTER -->
+<div class=footer></div>
+
+
+
+
+
+</div>
+
+
+<!-- SOCIAL MEDIA -->
+
+
+
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 
 </html>

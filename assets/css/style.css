@@ -1,65 +1,7 @@
-/* Universal */
-html {
-    position: relative;
-    min-height: 100%;
-  }
+body { 
+    padding-top: 70px; 
+}
 
 * {
     box-sizing: border-box;
-  }
-
-body {
-    /* Margin bottom by footer height */
-    margin-bottom: 5%;
-    background: url("../img/stardust.png");
-}
-
-
-/* navbar */
-
-.navbar-brand {
-
-}
-
-
-#main {
-    padding-top: 10%;
-    padding-bottom: 5%;
-    padding-left: 5%;
-    margin-bottom: 3%;
-}
-
-#profile {
-    margin-right: 5%;
-    float: left;
-}
-
-#social {
-    padding-top: 10%;
-    padding-bottom: 5%;
-    padding-left: 5%;
-    margin-bottom: 3%;
-}
-
-/*footer*/
-
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 5%;
-    line-height: 20%;
-    display: table-row;
-    color: #fff;
-    background: #343a3f; 
-}
-
-.footer > .container {
-    padding-top: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-code {
-    font-size: 80%;
   }
