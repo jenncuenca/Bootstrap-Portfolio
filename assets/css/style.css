@@ -24,6 +24,7 @@ h1, h2 {
     position: relative;
     min-height: 100%;
   }
+ 
 
   .nav {
     margin-left: 40%;
@@ -42,6 +43,10 @@ h1, h2 {
   }
   .social {
     padding: 2%;
+  }
+
+  #brand{
+    color:#088;
   }
 
   .footer {
