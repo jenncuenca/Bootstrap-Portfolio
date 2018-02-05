@@ -11,6 +11,11 @@ h1, h2, h3, h4, h5, h6 {
   color:#088;
 }
 
+h1, h2 {
+  padding-bottom: 3%;
+  border-bottom: 3px solid #088;
+}
+
 * {
     box-sizing: border-box;
   }
@@ -22,6 +27,11 @@ h1, h2, h3, h4, h5, h6 {
 
   .nav {
     margin-left: 40%;
+  
+  }
+
+  .navbar-brand {
+    color: #088;
   }
 
   .row {
@@ -50,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   /* CONTACT PAGE */
-  
+
   #contact-form ul {
     margin-bottom: 20px;
   }
@@ -65,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   textarea {
     display: block;
     width: 100%;
+    color:#088;
   }
   
   input[type=text],
@@ -85,9 +96,45 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     color: #fff;
     cursor: pointer;
-    background: #4aaaa5;
+    background: #088;
     border: 0 none;
   }
+
+/* PORTFOLIO */
+
+.work {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+
 
   /* color codes
   #8fd - aquamarine
