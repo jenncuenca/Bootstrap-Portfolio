@@ -1,7 +1,14 @@
 body { 
-    padding-top: 70px;
+    padding-top: 10%;
     /* Margin bottom by footer height */
     margin-bottom: 60px;
+    background-image: url("../img/gplaypattern.png");
+    font-family: 'Work Sans'!important, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Space Mono', monospace;
+  color:#088;
 }
 
 * {
@@ -13,11 +20,43 @@ body {
     min-height: 100%;
   }
 
+  .nav {
+    margin-left: 40%;
+  }
+
+  .row {
+    margin-bottom: 3%;
+  }
+
+  #bio {
+    padding-right: 5%;
+    padding-top: 5%;
+  }
+
+  #connect {
+    
+    
+    
+  }
+  .social {
+    padding: 2%;
+  }
+
   .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    padding-top: 2%;
     /* Set the fixed height of the footer here */
     height: 60px;
-    background-color: #ccc;
+    background-color: #e7e7e7;
+    text-align: center;
   }
+
+
+  /* color codes
+  #8fd - aquamarine
+  #022 - almost black blue
+  #077 - drk teal
+  #088 - medium teal
+  */
